@@ -1,0 +1,5 @@
+streamlit==1.15.0
+pandas==1.4.1
+numpy==1.23.2
+Pillow==9.0.1
+matplotlib==3.5.3
