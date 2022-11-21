@@ -1,3 +1,4 @@
+
 import streamlit as st  
 from PIL import Image
 
@@ -13,6 +14,7 @@ with st.container():
      percent = 96
      st.write("As you can see the target market for our product would be all the Participants for the various events that take place the exact-: ")
      st.write(f"The number comes down to {percent}% of the meta data")
+     st.write("The business model would be to bridge the gap between clubs and participants by being a analytics platform(SaaS product)") 
      
      
 with st.container():
@@ -38,14 +40,17 @@ with col2:
 
 
 with st.container():
-     st.header("Demo & Psycho Graphics")
-     st.write("")
+     st.header("DemoGraphics")
+     img=Image.open("Images/students.png")
+     st.image(img,width=500)
+     st.write("As we can see our demographic is college students and they would comprise of seniors and juniors who actively partcipate in various fests and club events")
 
 with st.container():
      st.header("Strengths and weaknesses")
      st.write("Our Weaknesses are we dont have much data regarding the what exactly happens in each club event ") 
      st.write("We dont have data from the past few years which would have given out better market trends") 
      st.write("However our Strengths are that we are able to deduplicate data pretty quickly and thereby give us more time to hypertune our product")
+     st.write("Our event deciding forum would be community driven which means its a strong sign onto to figure out what is working and what is not with zero bias")
 
 with st.container():
      st.header("Market Trends")
@@ -54,12 +59,12 @@ with st.container():
 with col1:
      img = Image.open("Images/fest1.png")
      st.image(img,width=500) 
-     st.write("")
+     st.write("As we can see in the fest1 pie chart fests 1,2,3,4,5 seem to be getting the most participation hence they should be promoted more and events similar to them should be conducted")
 
 with col2:
      img = Image.open("Images/fest2.png")
      st.image(img,width=500) 
-     st.write("") 
+     st.write("As we can see in the fest2 pie chart fests 1,2,3,4,5 seem to be getting the most participation hence they should be promoted more and events similar to them should be conducted") 
 
 with st.container(): 
           col1, col2,col3= st.columns([1,1,1])
@@ -67,22 +72,24 @@ with st.container():
 with col1:
      img = Image.open("Images/Club1.png")
      st.image(img,width=500) 
-     st.write("")
+     st.write("In the Piechart of Club1 its clearly visible that Its event 1 and 2 seem to be big hits therefore they should work around and figure out what is causing them to have such huge participation unlike event 3 ")
 
 with col2:
      img = Image.open("Images/Club2.png")
      st.image(img,width=500) 
-     st.write("") 
+     st.write("In the Piechart of Club2 its clearly visible that Its event 1 and 2 seem to be big hits therefore they should work around and figure out what is causing them to have such huge participation unlike event 3 ") 
 
 
 with col3:
      img = Image.open("Images/Club3.png")
      st.image(img,width=500) 
-     st.write("") 
+     st.write("In the Piechart of Club3 its clearly visible that Its event 1 and 2 seem to be big hits therefore they should work around and figure out what is causing them to have such huge participation unlike event 3 ") 
+
 
 
 with st.container(): 
      st.write("[For More information click here](https://github.com/Baka-14/MindGraph-Hackathon)")
+
 
 
 
