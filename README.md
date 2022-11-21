@@ -1,21 +1,12 @@
 # MU Hiring 2022 Dataset
-Hi All,
-Welcome to the MU Hiring Hackathon 2022 conducted by MindGraph. 
+My team and me got some fuzzfied data sets we then defuzzified them corrected the datasets and then analysed the data and put our conclusion on a website build with the help of streamlit. 
 
-1. You are made available a dataset with student activities across different events by clubs and fests. However, the student names in these datasets are fuzzified(as seen in real life)
+After looking at the data analysis we came up with a business model to be a consulting/analysis company for the organiser which works on SAAS bases
 
-2. You are tasked with deduplicating the names(in a table and across tables) and then joining all these tables together with the Metadata table(non fuzzified ground truth), convert the output into a specific JSON format(sample can be found below) necessary for  validation.
-
-3. Once you have the final joined dataset(referred to as profiles from here on), you can perform analysis to identify and understand any number of business problems of your choice. 
-
-4. When you decide on a problem statement and come up with a solution. Start building a dashboard(Streamlit) following the principles of [data storytelling](image.png) to backup your hypothesis with KPI metrics, graphs and any other viz of your choice.
-
-> All your code related to data engineering, ML and dashboards along with the profile data json file for validation should be checked into your private github repo. Please ensure that you submit the url to your github privite repository in the forms circulated by the placement office.
-
-## Deadlines:
-
-* 21-11-2022 12PM - Make public your privite github repo
-* 21-11-2022 2PM - Please be available with working versions of code along with all the team members for presentations to our panel
+To check the website just clone the repo ,check if you have all the libraries mentioned in requirements.txt and then-: 
+    streamlit run app.py 
+  
+ That should lead you to the website
 
 >Note: Team that commits last to the repo will be called to make the first presentation
 
@@ -42,28 +33,43 @@ Welcome to the MU Hiring Hackathon 2022 conducted by MindGraph.
 
 ## Sample Profile json format
 ```
-[
-    {
-        'name': 'Dummy',
-        'id': 'id000',
-        'clubs': {
-            'club_i': {
-                'isOrganiser': 'Organiser',
-                'club_i_event_j': {
-                    'participated': False
-                    },
+{
+        "Name": "annette ahmed",
+        "Id": "18XJ1A0100",
+        "Clubs": {
+            "club_1": {
+                "isOrganiser": "organiser_1",
+                "club_1_event_3": {
+                    "Participated": false
+                }
             },
+            "club_3": {
+                "isOrganiser": "",
+                "club_3_event_1": {
+                    "Participated": true
+                }
+            },
+            "club_2": {
+                "isOrganiser": "",
+                "club_2_event_2": {
+                    "Participated": true
+                }
+            }
         },
-        'fests': {
-            'fest_i': {
-                'isOrganiser': '',
-                'fest_i_event_j': {
-                    'participated': True
-                    },
+        "Fests": {
+            "fest_2": {
+                "isOrganiser": "organiser_9",
+                "fest_2_event_5": {
+                    "Participated": true
+                }
             },
+            "fest_1": {
+                "isOrganiser": "organiser_9",
+                "fest_1_event_5": {
+                    "Participated": true
+                }
+            }
         }
     }
-]
-
 
 ```
