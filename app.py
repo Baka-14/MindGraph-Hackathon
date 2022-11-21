@@ -17,7 +17,7 @@ with st.container():
      st.header("Market Size")
      st.write("As you can see from the pie chart our market size is  %")
      
-     
+
 
 with st.container():
      st.header("Demo & Psycho Graphics")
