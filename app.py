@@ -40,7 +40,7 @@ with col2:
 
 
 with st.container():
-     st.header("Demo & Psycho Graphics")
+     st.header("DemoGraphics")
      img=Image.open("Images/students.png")
      st.image(img,width=500)
      st.write("As we can see our demographic is college students and they would comprise of seniors and juniors who actively partcipate in various fests and club events")
