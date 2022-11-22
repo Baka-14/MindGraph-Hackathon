@@ -1,5 +1,5 @@
 # MU Hiring 2022 Dataset
-My team and me got some fuzzfied data sets we then defuzzified them corrected the datasets and then analysed the data and put our conclusion on a website build with the help of streamlit. 
+My team and I got some fuzzfied data sets that we defuzzified and then analysed the data and put our conclusion on a website built with the help of streamlit. 
 
 After looking at the data analysis we came up with a business model to be a consulting/analysis company for the organiser which works on SAAS bases
 
@@ -7,8 +7,6 @@ To check the website just clone the repo ,check if you have all the libraries me
     streamlit run app.py 
   
  That should lead you to the website
-
->Note: Team that commits last to the repo will be called to make the first presentation
 
 **TL;DR**
 1. Prepare unified student profiles from the activity data provided
