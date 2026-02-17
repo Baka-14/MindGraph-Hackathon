@@ -70,18 +70,18 @@ with st.container():
           col1, col2,col3= st.columns([1,1,1])
 
 with col1:
-     img = Image.open("Images/Club1.png")
+     img = Image.open("Images/Club 1.png")
      st.image(img,width=500) 
      st.write("In the Piechart of Club1 its clearly visible that Its event 1 and 2 seem to be big hits therefore they should work around and figure out what is causing them to have such huge participation unlike event 3 ")
 
 with col2:
-     img = Image.open("Images/Club2.png")
+     img = Image.open("Images/Club 2.png")
      st.image(img,width=500) 
      st.write("In the Piechart of Club2 its clearly visible that Its event 1 and 2 seem to be big hits therefore they should work around and figure out what is causing them to have such huge participation unlike event 3 ") 
 
 
 with col3:
-     img = Image.open("Images/Club3.png")
+     img = Image.open("Images/Club 3.png")
      st.image(img,width=500) 
      st.write("In the Piechart of Club3 its clearly visible that Its event 1 and 2 seem to be big hits therefore they should work around and figure out what is causing them to have such huge participation unlike event 3 ") 
 
