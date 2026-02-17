@@ -99,38 +99,6 @@ MindGraph-Hackathon/
    The app will open in your browser at `http://localhost:8501`.
 
 ---
-
-## Capturing screenshots for the README
-
-To add screenshots of the Streamlit app to this README:
-
-1. **Start the Streamlit app** (from repo root):
-   ```bash
-   streamlit run app.py
-   ```
-
-2. **Open the app** in your browser at `http://localhost:8501`
-
-3. **Take screenshots** of each section:
-   - **Target Market** — Shows the 96% target market percentage
-   - **Market Size** — Pie chart visualization (`roles.png`)
-   - **Market Segmentation** — Two-column layout with student year distribution and clubs bar chart
-   - **Demographics** — Student participation visualization
-   - **Strengths and weaknesses** — Text analysis section
-   - **Market Trends** — Fest participation charts (fest1.png, fest2.png) and club event analysis (Club 1-3.png)
-
-4. **Save screenshots** to the `screenshots/` directory (already created)
-
-5. **Add to README**: Once you have screenshots, you can add them using markdown image syntax:
-   ```markdown
-   ![Target Market](screenshots/target_market.png)
-   ![Market Size](screenshots/market_size.png)
-   ```
-
-   **Tip**: On macOS, use `Cmd+Shift+4` to take selective screenshots, or use browser extensions like "Full Page Screen Capture" for full-page screenshots.
-
----
-
 ## Profile JSON format (pluggable)
 
 Each student profile in `profiles.json` follows this structure:
